@@ -27,7 +27,7 @@ Installation
 Clone the repository:
 
 bash
-git clone https://github.com/yourusername/blood-group-detection.git
+git clone https://github.com/Mughal6t9/Blood-Group-Detection-by-using-Images
 cd blood-group-detection
 Install required dependencies:
 
@@ -46,28 +46,20 @@ Username: admin
 Password: 1234
 
 Follow the on-screen instructions:
-
-Enter patient information
-
-Upload blood sample image
-
-View detection results
-
-Download the PDF report
+•	Enter patient information
+•	Upload blood sample image
+•	View detection results
+•	Download the PDF report
 
 Training the Model
 To train or retrain the YOLO model:
-
 Prepare your dataset with proper annotations
-
 Configure the data.yaml file
-
 Run the training script:
 
 bash
 python train.py
 File Structure
-text
 blood-group-detection/
 ├── index.py            # Main Streamlit application
 ├── train.py            # Model training script
@@ -90,6 +82,5 @@ The current implementation uses a pre-trained model path (E:\Blood Group Detecti
 For production use, change the default login credentials in index.py.
 
 The system currently supports detection of all major blood groups (A, B, AB, O) with positive and negative Rh factors.
-
 License
 This project is open-source and available under the MIT License.
