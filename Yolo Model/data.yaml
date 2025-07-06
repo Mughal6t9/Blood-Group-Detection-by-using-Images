@@ -1,0 +1,13 @@
+train: E:\Blood Group Detection (Images)\Yolo Model\test\images
+val: E:\Blood Group Detection (Images)\Yolo Model\valid\images
+test: E:\Blood Group Detection (Images)\Yolo Model\test\images
+
+nc: 3
+names: ['A', 'B', 'D']
+
+roboflow:
+  workspace: minor-project-5th-semester
+  project: blood-group-detection-4yvdx
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/minor-project-5th-semester/blood-group-detection-4yvdx/dataset/4
