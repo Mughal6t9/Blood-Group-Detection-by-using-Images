@@ -1,3 +1,6 @@
+Any issue face to run this project contact me on social media platform 
+thanks 
+
 Blood Group Detection System
 Overview
 This project is a web-based application that detects blood groups from images of blood samples using YOLOv8 object detection model. The system provides a professional hospital report with patient information, detected blood group, and a QR code for verification.
